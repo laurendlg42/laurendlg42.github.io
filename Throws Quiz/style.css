@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color:crimson;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#title {
+    display: inline;
+    font-size: 40px;
+}
+
+#links li {
+    display: inline;
+    padding: 15px;
+    border-right: 2px solid white;
+}
+
+section {
+    padding: 20px;
+}
