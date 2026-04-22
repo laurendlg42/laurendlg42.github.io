@@ -1,0 +1,11 @@
+#sample {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 225);
+    border: 1px solid black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
