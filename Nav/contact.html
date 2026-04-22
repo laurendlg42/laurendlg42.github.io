@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="indexhtml"> 
+                <img id="logo" src="#####">
+            </a>
+            <h1 id="title"> Computer Science Department</h1>
+        </header>
+        <nav>
+            <ul id="links"> 
+                <li><a href="index.html">Home</a></li></li>
+                <li><a href="faculty.html">Faculty</a></li></li>
+                <li><a href="staff.html">Staff</a></li></li>
+                <li><a href="courses.html">Courses</a></li></li>
+                <li><a href="contact.html">Contact Us</a></li></li>
+            </ul>
+        </nav>
+
+        <section>
+         <h1>Ask a question</h1>
+        <form action="action_page.php" method="GET" target="blank">
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName"><br>
+
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName"><br>
+
+            <label for="email">email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="password">password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <!----Gender Radio Buttons----->
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+            <!----Classifications Radio Buttons----->
+            <input type="radio" id="Freshman" name="classification" value="Freshman">
+            <label for="Freshman">Freshman</label><br>
+
+            <input type="radio" id="Sophmore" name="classification" value="Sophmore">
+            <label for="Sophmore">Sophmore</label><br>
+
+            <input type="radio" id="Junior" name="classification" value="Junior">
+            <label for="Junior">Junior</label><br>
+
+            <input type="radio" id="Senior" name="classification" value="Senior">
+            <label for="Senior">Senior</label><br>
+            <!----Courses Radio Buttons----->
+            <fieldset>
+                <legend>Courses</legend>
+                <input type="checkbox" id="COSC1301" name="COSC1301" value="COSC1301">
+                <label for="COSC1301">COSC1301</label><br>
+
+                <input type="checkbox" id="COSC1315" name="COSC1315" value="COSC1315">
+                <label for="COSC1315">COSC1315</label><br>
+
+                <input type="checkbox" id="COSC1320" name="COSC1320" value="COSC1320">
+                <label for="COSC1320">COSC1320</label><br>
+
+                <input type="checkbox" id="COSC1436" name="COSC1436" value="COSC1436">
+                <label for="COSC1436">COSC1436</label><br>
+            </fieldset>
+
+            <input type="submit" value=" click to submit">
+        </form>
+
+        </section>
+    </body>
+</html>
