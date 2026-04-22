@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana;
+    background-color: ghostwhite;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 20px;
+    border: 20px solid blue;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+}
+
+article{
+    border-bottom: 1px dotted gray;
+    height: 150px;
+    padding: 10px;
+}
+
+.stats {
+    color: white;
+    background-color: teal;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+li {
+    list-style-type: square;
+}
+
+article:hover:not(.stats){
+    background-color: lightblue;
+}
